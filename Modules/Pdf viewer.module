@@ -1,0 +1,4 @@
+[MITM]
+hostname = api.revenuecat.com
+[Script]
+PDF Viewer=type=http-response,pattern=^https:\/\/api\.revenuecat\.com\/v1\/subscribers.+,requires-body=1,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/PDFViewer.js
